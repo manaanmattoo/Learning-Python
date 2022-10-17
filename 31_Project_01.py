@@ -1,4 +1,4 @@
-# Game - Rock Paper Scissor 
+# Game - Rock Paper Scissors 
 import random
 
 def gameWin(comp,player):
@@ -21,9 +21,7 @@ def gameWin(comp,player):
             return False
 
 
-
-
-print(" Welcome to Rock , Paper or Scissor Game By Manaan Mattoo")
+print(" Welcome to Rock , Paper or Scissors Game By Manaan Mattoo")
 print(" Get Ready , You'll be playing against the Computer !\n")
 
 print("Computer has choosen it's tool !")
@@ -35,7 +33,7 @@ elif randno == 2:
 else :
     comp = "s"
 
-player = input("Your Turn , Rock(r), Paper(p) or Scissor(s) ?\n")
+player = input("Your Turn , Rock(r), Paper(p) or Scissors(s) ?\n")
 
 a = gameWin(comp, player)
 
